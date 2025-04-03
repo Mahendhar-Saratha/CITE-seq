@@ -1,1 +1,3 @@
 # CITE-seq
+
+CITE-seq measures gene and protein expression in single cells, enabling analysis of cell type markers and gene expression correlations. It uses Antibody-Derived Tags for protein and RNA-sequencing for gene expression. The challenge is to predict 25 protein expressions in 1000 cells from gene expression data of 639 genes, using a dataset of 4000 cells with complete protein and gene information. This prediction task requires leveraging training data, including test RNA data, for accurate protein expression forecasts and we used two methods Ordinary Least Squares regression and Non-negative matrix factorization with L2 regularization
